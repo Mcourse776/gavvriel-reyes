@@ -128,10 +128,19 @@ main {
   background: #101114; 
 }
 
+.project-text h2 {
+  margin-bottom: 22px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fafafa;
+  letter-spacing: 1px;
+}
+
+
 .social-container {
   display: flex;
   justify-content: center;
-  gap: 45px;
+  gap: 55px;
   margin-top: 40px;
 }
 
@@ -187,7 +196,7 @@ main {
 
 .image-container {
   display: flex;
-  gap: 28px;
+  gap: 50px;
   justify-content: center;
 }
 
@@ -231,6 +240,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+
 
 main {
   flex: 1 0 auto;
@@ -352,6 +363,17 @@ body {
     max-width: 99vw;
     border-radius: 11px;
   }
+}
+
+.yeah {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
 }
 
 footer {
